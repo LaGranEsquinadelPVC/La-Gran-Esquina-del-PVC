@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>electricos</title>
+  <style>
+    body {
+      background-image: url("fondo.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .galeria img {
+      width: 25%;
+      margin: 10px;
+      border: 3px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+      text-shadow: 2px 2px #fff;
+    }
+
+    img[title] {
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    img[title]:hover {
+      transform: scale(1.05);
+    }
+
+    
+
+    .btn {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #5d5d5f;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: #f6f6fc;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn.nav {
+      background-color: #ccc;
+    }
+
+    .btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+    
+  </style>
+   <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<nav>
+    <a href="javascript:history.go(-1)"  class="btn">inicio</a>
+</nav>
+<body>
+  <h1>accesorios electricos y conduit</h1>
+  <div class="galeria">
+    <img src="imagenes/IMAGENES/bombillo led platno.jfif" alt="Imagen 1" title="bombillo led plano">
+    
+    <img src="imagenes/IMAGENES/caja 2x24.jpeg" alt="Imagen 2" title="caja 2x4">
+    
+    <img src="imagenes/IMAGENES/caja 4x4.jpeg" alt="Imagen 4" title="caja 4x4">
+
+    <img src="imagenes/IMAGENES/caja camara.jpeg" alt="Imagen 5" title="caja camara">
+
+    <img src="imagenes/IMAGENES/caja ogtagonal.jpeg" alt="Imagen 6" title="caja ogtagonal">
+
+    <img src="imagenes/IMAGENES/caja sobreponer.jpeg" alt="Imagen 7" title="caja sobreponer">
+
+    <img src="imagenes/IMAGENES/cinta ne.jfif" alt="Imagen 8" title="cinta negra">
+
+    <img src="imagenes/IMAGENES/canaleta.jfif" alt="Imagen 9" title="canaleta">
+
+    <img src="imagenes/IMAGENES/cable cmtrs.jpeg" alt="Imagen 10" title="cable duplex">
+
+    <img src="imagenes/IMAGENES/clavija 10 amp.jpeg" alt="Imagen 11" title="clavija">
+
+    <img src="imagenes/IMAGENES/clavija caucho.jpeg" alt="Imagen 12" title="clavija polo tierra">
+
+    <img src="imagenes/IMAGENES/curva 1.jfif" alt="Imagen 13" title="curva conduit">
+
+    <img src="imagenes/IMAGENES/fusible.jfif" alt="Imagen 14" title="fuxible">
+
+    <img src="imagenes/IMAGENES/convertidor.jpeg" alt="Imagen 15" title="convertidor">
+  
+    <!-- Agrega más imágenes según sea necesario -->
+  </div>
+  <a href="https://api.whatsapp.com/send?phone=+51987654321" class="btn-wsp" target="_blank">
+    <i class="fa fa-whatsapp icono"></i>
+</a>
+<a href="https://api.whatsapp.com/send?phone=+573127728686" class="btn-wsp" target="_blank">
+  <i class="fa fa-whatsapp icono"></i>
+</a>
+</body>
+</html>
+    

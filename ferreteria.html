@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ferreteria</title>
+  <style>
+    body {
+      background-image: url("fondo.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .galeria img {
+      width: 25%;
+      margin: 10px;
+      border: 3px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+      text-shadow: 2px 2px #fff;
+    }
+
+    img[title] {
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    img[title]:hover {
+      transform: scale(1.05);
+    }
+
+    
+
+    .btn {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #5d5d5f;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: #f6f6fc;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn.nav {
+      background-color: #ccc;
+    }
+
+
+    .btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+
+    
+  </style>
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<nav>
+    <a href="javascript:history.go(-1)"  class="btn">inicio</a>
+</nav>
+<body>
+  <h1>accesorios de ferreteria</h1>
+  <div class="galeria">
+    <img src="imagenes/IMAGENES/cinta doble faz.jpeg" alt="Imagen 1" title="cinta doble faz">
+    
+    <img src="imagenes/IMAGENES/cinta papel.jfif" alt="Imagen 2" title="cinta papel">
+    
+    <img src="imagenes/IMAGENES/corta tubo.jfif" alt="Imagen 4" title="corta tubo">
+
+    <img src="imagenes/IMAGENES/destapacaño manual.jfif" alt="Imagen 5" title="destapacaño manual">
+
+    <img src="imagenes/IMAGENES/destapacaños taladro.jfif" alt="Imagen 6" title="destapacaño taladro">
+
+    <img src="imagenes/IMAGENES/aersol blanco.jfif" alt="Imagen 7" title="aersol varios colores">
+
+    <img src="imagenes/IMAGENES/bisturin me.jpeg" alt="Imagen 8" title="bisturin metal">
+
+    <img src="imagenes/IMAGENES/bisturin plastico.png" alt="Imagen 9" title="bisturin plastico">
+
+    <img src="imagenes/IMAGENES/broca concreto.webp" alt="Imagen 10" title="broca concreto">
+
+    <img src="imagenes/IMAGENES/broca madera.webp" alt="Imagen 11" title="broca madera">
+
+    <img src="imagenes/IMAGENES/broca metal.jpeg" alt="Imagen 12" title="broca metal">
+
+    <img src="imagenes/IMAGENES/broca plus.jpeg" alt="Imagen 13" title="broca plus">
+
+    <img src="imagenes/IMAGENES/brocha.jfif" alt="Imagen 14" title="brocha">
+
+    <img src="imagenes/IMAGENES/calibrado.jfif" alt="Imagen 15" title="calibrador">
+
+    <img src="imagenes/IMAGENES/candado anticizalla.jfif" alt="Imagen 16" title="candado anticizalla">
+
+    <img src="imagenes/IMAGENES/candado hermex.jpeg" alt="Imagen 17" title="candado hermex">
+
+    <img src="imagenes/IMAGENES/cautin lapiz.png" alt="Imagen 18" title="cautil lapiz">
+
+    <img src="imagenes/IMAGENES/cepillo acero.jpeg" alt="Imagen 19" title="cepillo acero">
+
+    <img src="imagenes/IMAGENES/cepillo carbon.jpeg" alt="Imagen 20" title="cepillo al carbon">
+
+    <img src="imagenes/IMAGENES/cepillo ondulado.jfif" alt="Imagen 21" title="cepillo ondulado">
+
+    <img src="imagenes/IMAGENES/chapa puerta.jpeg" alt="Imagen 22" title="chapa puerta">
+
+    <img src="imagenes/IMAGENES/charola.jfif" alt="Imagen 23" title="charola para pintar">
+
+    <img src="imagenes/IMAGENES/chazo caiman.jpeg" alt="Imagen 24" title="chazo caiman">
+
+    <img src="imagenes/IMAGENES/bisagra satinada.jfif" alt="Imagen 25" title="bisagra satinada">
+
+
+
+    <!-- Agrega más imágenes según sea necesario -->
+  </div>
+  
+  <a href="https://api.whatsapp.com/send?phone=+57 3127728686" class="btn-wsp" target="_blank">
+    <i class="fa fa-whatsapp icono"></i>
+</a>
+<a href="https://api.whatsapp.com/send?phone=+573127728686" class="btn-wsp" target="_blank">
+  <i class="fa fa-whatsapp icono"></i>
+</a>
+</body>
+</html>
+    

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>accesorios</title>
+  <style>
+    body {
+      background-image: url("fondo.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .galeria img {
+      width: 25%;
+      margin: 10px;
+      border: 3px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+      text-shadow: 2px 2px #fff;
+    }
+
+    img[title] {
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    img[title]:hover {
+      transform: scale(1.05);
+    }
+
+    
+
+    .btn {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #5d5d5f;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: #f6f6fc;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn.nav {
+      background-color: #ccc;
+    }
+
+    .btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+
+
+
+
+    
+  </style>
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<nav>
+    <a href="javascript:history.go(-1)"  class="btn">inicio</a>
+</nav>
+<body>
+  <h1>Tubería Sanitaria, presion y conduit</h1>
+  <div class="galeria">
+    <img src="imagenes/IMAGENES/ducha cruseta.jfif" alt="Imagen 1" title="ducha cruseta">
+    
+    <img src="imagenes/IMAGENES/llave d lujo.jfif" alt="Imagen 2" title="llave de lujo">
+    
+    <img src="imagenes/IMAGENES/llave de paso.jfif" alt="Imagen 4" title="llave de paso">
+
+    <img src="imagenes/IMAGENES/acordeon gris.jfif" alt="Imagen 5" title="sifon acordeon">
+
+    <img src="imagenes/IMAGENES/adaptador macho.jfif" alt="Imagen 6" title="adaptador macho">
+
+    <img src="imagenes/IMAGENES/asiento.jfif" alt="Imagen 7" title="asiento sanitario">
+
+    <img src="imagenes/IMAGENES/buje san.jfif" alt="Imagen 8" title="buje sanitario">
+
+    <img src="imagenes/IMAGENES/buje presion 1.jfif" alt="Imagen 9" title="buje presion">
+
+    <img src="imagenes/IMAGENES/codo s.jfif" alt="Imagen 10" title="codo sanitario">
+
+    <img src="imagenes/IMAGENES/codo cpvc .png" alt="Imagen 11" title="codo cpvc">
+
+    <img src="imagenes/IMAGENES/codo.jfif" alt="Imagen 12" title="codo presion">
+
+  
+    <!-- Agrega más imágenes según sea necesario -->
+  </div>
+  
+  <a href="https://api.whatsapp.com/send?phone=+573127728686" class="btn-wsp" target="_blank">
+    <i class="fa fa-whatsapp icono"></i>
+  </a>
+</body>
+</html>
+    
