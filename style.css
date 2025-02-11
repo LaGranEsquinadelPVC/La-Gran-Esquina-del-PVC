@@ -12,7 +12,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'montserrat', sans-serif;
+  font-family: 'arial', sans-serif;
 }
 
 h1 {
@@ -151,7 +151,7 @@ hr {
   }
   .nav1 ul li a {
     font-size: 17px;
-    color: var(--matte-black);
+    
   }
   
   .btn {
@@ -202,11 +202,16 @@ hr {
 }
 #hero img {
   margin: 1.4rem;
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  border: 2px solid #ccc;
 }
 #hero img:hover {
   transform: scale(1.1);
-  transition: transform 0.3s;
-  }
+  transition: transform 0.3s
+}
 
 /* ==============media hero============ */
 
@@ -321,48 +326,6 @@ hr {
 h3 {
   font-size: 2.5rem;
   color: var(--matte-white);
-}
-
-.container {
-  position: relative;
-}
-
-.container .slider {
-  display: flex;
-  background: #011b27;
-  padding: 2px;
-  width: 600px;
-  height: 150px;
-  overflow: hidden;
-  scroll-behavior: smooth;
-}
-
-.container .slider img {
-  margin: 3px;
-  max-width: 100%;
-}
-
-.container .control {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #02293b;
-  cursor: pointer;
-  object-fit: contain;
-  padding: 10px;
-}
-
-.container .prev {
-  left: 0;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.container .next {
-  right: 0;
-  top: 50%;
-  transform: translate(50%, -50%);
 }
 
 /* ================contact us=============== */
@@ -480,7 +443,7 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   background-color: rgb(53, 52, 52);
-  padding: 2rem;
+  padding: 1rem;
   box-shadow: 0 4px 6px rgba(225, 250, 0, 0.1);
   transition: 0.3s ease;
 }
@@ -548,46 +511,6 @@ h3 {
 
 
 
-/* =================footer================= */
-footer {
-  margin: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  color: var(--matte-white);
-  font-size: 16px;
-  opacity: 70%;
-  text-align: center;
-}
-
-
-
-footer.a {
-font-weight: bold;
-}
-
-
-#map {
-  height: 400px;
-  width: 100%;
-  text-align: center;
-}
-
-.accept-btn {
-  background-color: #000000; 
-  border-radius: 25px;
-  color: rgb(255, 255, 255);
-  padding: 10px 20px;
-  display: inline-block;
-  margin: 1rem;
-  transition: 0.3s ease;
-  
-}
-
-.accept-btn:hover {
-  background-color: #e4e704;
-}
 
 /* =================whatsapp================= */
 .btn-wsp{
@@ -635,8 +558,8 @@ font-weight: bold;
 }
 
 .photo img {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 200px;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -680,6 +603,11 @@ font-weight: bold;
   color: #ccc;
   padding: 15px;
   font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
 }
 
 .prev, .next {

@@ -81,4 +81,3 @@ modal.addEventListener("click", (e) => {
     modalImage.classList.remove("zoomed"); // Desactivar zoom al cerrar el modal
   }
 });
-
