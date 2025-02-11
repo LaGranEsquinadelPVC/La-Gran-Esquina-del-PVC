@@ -12,7 +12,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'arial', sans-serif;
+  font-family: 'montserrat', sans-serif;
 }
 
 h1 {
@@ -203,6 +203,10 @@ hr {
 #hero img {
   margin: 1.4rem;
 }
+#hero img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  }
 
 /* ==============media hero============ */
 
